@@ -1,0 +1,41 @@
+﻿https://www.pontikis.net/blog/create-cookies-php-javascript
+https://www.guru99.com/cookies-and-sessions.html
+
+entra un tio en una pagina cualquiera
+
+if ($COOKIE == admin) {
+	refrescar la galleta del auth a corto plazo
+	$_SESSION['id'] = (3, sale de la bbdd)
+	$_SESSION['name'] = (2B, sale de la bbdd);
+	$_SESSION['role'] = (user, sale de la bbdd con un if (if 1 = admin, if 2 = user, if 3 = registered));
+	id 1 = admin (admin)
+	id 2 = 2B (registered) (con privilegios)
+	id 3 = guest (guest) (sin privilegios)
+} else if ($COOKIE == user) {
+	refrescar la galleta del auth a corto plazo
+	$_SESSION = user;
+} else {
+	$_SESSION = guest;
+}
+
+if userProfile.php
+	if ($SESSION == admin) {
+		userProfile.php con menus (links) y opciones de admin (vista total)
+	} else if ($SESSION == user) {
+		userProfile.php con menus (links) y opciones de user (vista solo de las cosas del user)	
+	} else {	
+		userProfile.php con menus (links) y opciones de guest (vista solo de las cosas del guest)
+	}
+}
+
+en log in:
+	cookie start.php
+	session start.php
+	mandar al tio al userProfile.php
+
+en log out:
+	cookie destroy.php
+	session destroy.php
+	mandar al tio al index.php
+
+

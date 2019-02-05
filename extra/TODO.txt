@@ -1,0 +1,29 @@
+index OK
+consulta combinaciones OK
+usuarios se registran OK
+usuarios se hacen login OK
+____
+usuarios session OK
+usuarios salen de la sesion OK
+
+usuarios crean color OK
+usuarios crean comment OK
+usuarios crean combinacion OK
+
+usuarios modifican color KO
+usuarios modifican comment KO
+usuarios modifican combinacion KO
+
+usuarios borran color KO
+usuarios borran comment KO
+usuarios borran combinacion KO
+
+========
+
+bonus (registrados) (los comentarios se convierte en permanentes)
+bonus (de pago) (los colores y las combinaciones se convierte en permanentes (mientras renueves))
+
+crear tabla "sales"
+
+.sales@voodoo.co.com
+..itsPureMagic666
